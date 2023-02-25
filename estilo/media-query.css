@@ -7,6 +7,7 @@
 
     section#login {
         width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem {
@@ -19,9 +20,6 @@
         float: right;
         width: 70%;
     }
-    div.campo > label {
-        display: inline;
-    }
 }
 
 @media screen and (min-width: 992px) { 
@@ -31,6 +29,7 @@
 
     section#login {
         width: 950px;
+        height: 340px;
     }
 
     section#login > div#imagem {
@@ -42,9 +41,5 @@
     section#login > div#formulario {
         float: left;
         width: 50%;
-    }
-
-    div.campo > label {
-        display: inline;
     }
 }
